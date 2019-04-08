@@ -1,0 +1,459 @@
+@charset "utf-8";
+/*首页*/
+.container {
+	width: 100%;
+	height: 100%;
+}
+.index-tit {
+	overflow: hidden;
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	left: 80px;
+	top: 35px;
+}
+.index-tit img {
+	display: block;
+	float: left;
+}
+.index-tit img.m17 {
+	margin: 17px;
+}
+.index-text {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin-left: -282px;
+	z-index: 1;
+}
+.index-btn-group {
+	overflow: hidden;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	margin-left: -420px;
+	z-index: 1;
+}
+.index-btn-group a {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 56px;
+	line-height: 56px;
+	background-color: #2296f9;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	margin: 0 5px;
+}
+.index-btn-group a i {
+	display: block;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin: 12px 10px 0 30px;
+}
+.index-btn-group a i.icon1 {
+	background-position: 0 -74px;
+}
+.index-btn-group a i.icon2 {
+	background-position: 0 -117px;
+}
+.index-btn-group a i.icon3 {
+	background-position: 0 -162px;
+}
+.index-btn-group a i.icon4 {
+	background-position: 0 -206px;
+}
+.index-link-group {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -163px;
+	font-size: 14px;
+	line-height: 80px;
+	z-index: 1;
+}
+.index-link-group a {
+	margin: 0 10px;
+}
+.back {
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+}
+.index-bg, .bg-img {
+	background:#fff none no-repeat scroll center center ;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+}
+.bg-img {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.index-bg {
+	overflow: visible;
+}
+.tab-tit {
+	border-bottom: 1px solid #dbdbdb;
+	height: 77px;
+}
+.tab-tit ul {
+	overflow: hidden;
+}
+.tab-tit ul li {
+	float: left;
+	width: 130px;
+	height: 75px;
+	line-height: 105px;
+}
+.tab-tit ul li a {
+	display: block;
+	color: #666;
+	font-size: 14px;
+	text-align: center;
+}
+.tab-tit ul li.cur a {
+	color: #333;
+}
+.tab-tit ul li.cur {
+	border-bottom: 3px solid #fab42e;
+}
+.tab-con {
+	width: 100%;
+	padding: 30px 0;
+	overflow: hidden;
+}
+.tab-con .search-form {
+	width: 630px;
+	position: relative;
+	left: 50%;
+	margin-left: -315px;
+	margin-top: 40px;
+}
+.search-form .mb30 {
+	margin-bottom: 30px;
+}
+.search-form label {
+	float: left;
+	width: 100px;
+	line-height: 37px;
+	text-align: right;
+	font-size: 14px;
+	padding-right: 20px;
+}
+.search-form input[type="text"] {
+	width: 340px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #dbdbdb;
+	border-radius: 5px;
+	padding: 0 0 0 5px;
+	color: #666;
+}
+.error-tips {
+	color: #f00;
+	font-size: 14px;
+	position: absolute;
+	left: 470px;
+	line-height: 37px;
+}
+.search-result h4 {
+	font-size: 18px;
+	text-align: center;
+}
+.search-result .res-box {
+	border: 1px solid #dbdbdb;
+	padding: 40px;
+	margin: 30px 45px 0;
+	font-size: 14px;
+}
+.search-result .res-box p {
+	width: 260px;
+	margin: 10px auto;
+}
+.t-center {
+	text-align: center;
+}
+.tab-con .card-box {
+	float: left;
+	width: 39%;
+	margin: 0 5%;
+	border: 1px solid #dbdbdb;
+}
+.card-box .card-img {
+	text-align: center;
+	padding: 40px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.card-box .card-img img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+.card-box .card-name {
+	line-height: 55px;
+	font-size: 14px;
+	text-align: center;
+}
+.download {
+	text-align: center;
+	line-height: 80px;
+}
+.download a {
+	color: #41adfb;
+	text-decoration: underline;
+	font-size: 14px;
+}
+.res-table {
+	margin: 30px 40px 0;
+}
+.res-table .table-tit {
+	font-size: 14px;
+}
+.res-table .table-tit p {
+	float: left;
+	margin: 10px 30px 10px 0;
+}
+.res-table table {
+	width: 100%;
+	font-size: 14px;
+}
+.res-table table tr th {
+	border: 1px solid #dbdbdb;
+	background-color: #f5f5f5;
+	padding: 7px;
+	text-align: center;
+}
+.res-table table tr td {
+	border: 1px solid #dbdbdb;
+	padding: 7px;
+	text-align: center;
+}
+.res-table table tr td a {
+	color: #41adfb;
+	margin: 0 10px;
+}
+.res-table table tr td a:hover {
+	text-decoration: underline;
+}
+.search-result i.right {
+	width: 62px;
+	height: 62px;
+	float: left;
+}
+.pwd-res-box {
+	font-size: 14px;
+	width: 300px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.fl {
+	float: left;
+}
+.pwd-res-box p {
+	line-height: 30px;
+	margin-left: 25px;
+}
+/*卡介绍*/
+.w960 {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.introduce-text {
+	font-size: 14px;
+	vertical-align: text-bottom;
+	margin: 0 60px 40px;
+}
+.introduce-text em {
+	font-size: 18px;
+}
+.card-show {
+	width: 70%;
+	float: left;
+}
+.card-show .card-show-img {
+	overflow: hidden;
+}
+.card-show-img {
+	text-align: center;
+}
+.card-show-img img {
+	border-radius: 5px;
+	margin: 0 25px;
+}
+.card-show .card-show-img img {
+	display: block;
+	float: left;
+	margin-bottom: 15px;
+}
+.ewm {
+	width: 29%;
+	float: left;
+	border: 1px solid #dbdbdb;
+	text-align: center;
+	padding: 84px 0;
+}
+.ewm img {
+	display: block;
+	margin: 0 auto;
+}
+.ewm p {
+	font-size: 14px;
+	line-height: 40px;
+	color: #666;
+}
+/*企业购卡*/
+.buy-card-form {
+	width: 660px;
+	margin-left: 260px;
+	font-size: 14px;
+}
+.buy-card-form .radio {
+	overflow: hidden;
+	padding: 0 140px;
+	margin-bottom: 20px;
+}
+.radio p {
+	width: 50%;
+	float: left;
+}
+.buy-card-form .input-box {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.input-box p {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.input-box p label {
+	width: 100px;
+	float: left;
+	text-align: right;
+	line-height: 37px;
+	margin-right: 10px;
+}
+.input-box p input[type="text"] {
+	float: left;
+	width: 360px;
+	height: 35px;
+	border: 1px solid #dbdbdb;
+	border-radius: 5px;
+	padding-left: 5px;
+}
+.input-box p .btn {
+	margin: 4px 0 4px 20px;
+}
+.buy-card-form .check {
+	margin-left: 110px;
+	margin-bottom: 20px;
+}
+.buy-card-form .btn-group {
+	margin-bottom: 20px;
+}
+.buy-card-form .btn-group .btn {
+	display: block;
+	margin: 20px 0 20px 220px;
+}
+.check .red {
+	color: #f00;
+}
+.check .red a {
+	margin-left: 5px;
+	color: #f00;
+	text-decoration: underline;
+}
+.buy-card-form .tijiao {
+	text-align: center;
+}
+.tijiao .btn {
+	display: block;
+	margin-left: 220px;
+ *margin-left: 0;
+}
+/*************** 分页样式 ***************/
+.content-box{
+  margin: 20px 40px;
+}
+.content-box a {
+  height: 34px;
+  padding: 0px 18px;
+  border: 1px solid #E1E2E3;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: text-bottom;
+  text-align: center;
+  line-height: 34px;
+  text-decoration: none;
+  overflow: hidden;
+  margin-right: 9px;
+  background-color: #ededed;
+  color: #5F93CF;
+  font-size: 12px;
+}
+.content-box a:hover {
+  color: #333;
+  background-color: #fff;
+}
+.content-box a select{
+  width: 30px;
+  padding-left: 5px;
+  border-radius: 0;
+}
+.content-box .fenye {
+  float: right;
+}
+.fenye a {
+  height: 34px;
+  padding: 0px 18px;
+  border: 1px solid #E1E2E3;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: text-bottom;
+  text-align: center;
+  line-height: 34px;
+  text-decoration: none;
+  overflow: hidden;
+  margin-right: 9px;
+  background-color: #ededed;
+  color: #333;
+  font-family: 微软雅黑;
+  font-size: 14px;
+}
+.fenye a:hover {
+  color: #5F93CF;
+  background-color: #fff;
+}
+/*************** 分页样式 ***************/
+/*验证码*/
+.search-form input[type="text"].yzm{
+  width: 130px;
+  float: left;
+}
+.search-form .yzm-img{
+  float: left;
+  width: 120px;
+  height: 35px;
+  margin-left: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-form .yzm-link{
+  width: 70px;
+  line-height: 35px;
+  padding-left: 15px;
+  float: left;
+  color: #2296f9;
+  text-decoration: underline;
+}
+
