@@ -183,6 +183,10 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   width: 140px;
   height: 40px;
 }
+.btn-large{
+  width: 347px;
+  height: 35px;
+}
 .btn-fill{
   background-color: #2296f9;
   color: #fff;

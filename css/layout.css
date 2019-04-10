@@ -19,6 +19,15 @@
 .index-tit img.m17 {
 	margin: 17px;
 }
+.index-bg-center{
+	background: url(../images/index-bg-center.png) 0 0 no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 18%;
+	z-index: 1;
+}
 .index-text {
 	position: absolute;
 	top: 40%;
@@ -37,10 +46,10 @@
 .index-btn-group a {
 	display: block;
 	float: left;
-	width: 200px;
-	height: 56px;
-	line-height: 56px;
-	background-color: #2296f9;
+	width: 209px;
+	height: 64px;
+	line-height: 62px;
+	background: url(../images/index-btn-bg.png) 0 0 no-repeat;
 	border-radius: 5px;
 	color: #fff;
 	font-size: 16px;
@@ -51,7 +60,7 @@
 	float: left;
 	width: 32px;
 	height: 32px;
-	margin: 12px 10px 0 30px;
+	margin: 15px 10px 0 30px;
 }
 .index-btn-group a i.icon1 {
 	background-position: 0 -74px;
@@ -63,13 +72,13 @@
 	background-position: 0 -162px;
 }
 .index-btn-group a i.icon4 {
-	background-position: 0 -206px;
+	background-position: 0 -249px;
 }
 .index-link-group {
 	position: absolute;
 	bottom: 0;
 	left: 50%;
-	margin-left: -163px;
+	margin-left: -85px;
 	font-size: 14px;
 	line-height: 80px;
 	z-index: 1;
@@ -95,6 +104,7 @@
 	overflow: hidden;
 }
 .bg-img {
+	background-image: url(../images/index-bg.png);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -112,7 +122,7 @@
 }
 .tab-tit ul li {
 	float: left;
-	width: 130px;
+	width: 170px;
 	height: 75px;
 	line-height: 105px;
 }
@@ -159,6 +169,9 @@
 	border-radius: 5px;
 	padding: 0 0 0 5px;
 	color: #666;
+}
+.btn-align{
+	padding-left: 120px;
 }
 .error-tips {
 	color: #f00;
@@ -210,9 +223,10 @@
 	line-height: 80px;
 }
 .download a {
-	color: #41adfb;
+	color: #2296f9;
 	text-decoration: underline;
 	font-size: 14px;
+	margin: 0 10px;
 }
 .res-table {
 	margin: 30px 40px 0;
@@ -278,6 +292,9 @@
 .introduce-text em {
 	font-size: 18px;
 }
+.introduce-text a{
+	color: #2296f9;
+}
 .card-show {
 	width: 70%;
 	float: left;
@@ -302,7 +319,7 @@
 	float: left;
 	border: 1px solid #dbdbdb;
 	text-align: center;
-	padding: 84px 0;
+	padding: 45px 0 30px;
 }
 .ewm img {
 	display: block;
@@ -312,6 +329,16 @@
 	font-size: 14px;
 	line-height: 40px;
 	color: #666;
+	margin-bottom: 20px;
+}
+.tab-con .tel{
+	width: 960px;
+	margin: 20px auto;
+	font-size: 15px;
+}
+.tab-con .tel em{
+	font-size: 24px;
+	color: #2296f5;
 }
 /*企业购卡*/
 .buy-card-form {
@@ -332,12 +359,20 @@
 	overflow: hidden;
 	margin-bottom: 20px;
 }
+.input-tit{
+	width: 130px;
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
 .input-box p {
 	margin-bottom: 30px;
 	overflow: hidden;
+	position: relative;
 }
 .input-box p label {
-	width: 100px;
+	width: 130px;
 	float: left;
 	text-align: right;
 	line-height: 37px;
@@ -352,11 +387,18 @@
 	padding-left: 5px;
 }
 .input-box p .btn {
-	margin: 4px 0 4px 20px;
+	margin: 4px 0;
+}
+.module-load{
+	position: absolute;
+	left: 530px;
+	line-height: 40px;
+	color: #2296f9;
+	text-decoration: underline;
 }
 .buy-card-form .check {
-	margin-left: 110px;
-	margin-bottom: 20px;
+	margin-left: 140px;
+	margin-bottom: 50px;
 }
 .buy-card-form .btn-group {
 	margin-bottom: 20px;
@@ -386,61 +428,44 @@
   margin: 20px 40px;
 }
 .content-box a {
-  height: 34px;
+  height: 30px;
   padding: 0px 18px;
-  border: 1px solid #E1E2E3;
+  border: 1px solid #2296f9;
+  border-radius: 5px;
   cursor: pointer;
   display: inline-block;
   vertical-align: text-bottom;
   text-align: center;
-  line-height: 34px;
+  line-height: 30px;
   text-decoration: none;
   overflow: hidden;
-  margin-right: 9px;
-  background-color: #ededed;
-  color: #5F93CF;
-  font-size: 12px;
+  margin-right: 10px;
+  background-color: #fff;
+  color: #2296f9;
+  font-size: 14px;
 }
 .content-box a:hover {
-  color: #333;
-  background-color: #fff;
+  color: #fff;
+  background-color: #2296f9;
 }
 .content-box a select{
   width: 30px;
   padding-left: 5px;
   border-radius: 0;
+  background-color: #fff;
 }
 .content-box .fenye {
   float: right;
 }
-.fenye a {
-  height: 34px;
-  padding: 0px 18px;
-  border: 1px solid #E1E2E3;
-  cursor: pointer;
-  display: inline-block;
-  vertical-align: text-bottom;
-  text-align: center;
-  line-height: 34px;
-  text-decoration: none;
-  overflow: hidden;
-  margin-right: 9px;
-  background-color: #ededed;
-  color: #333;
-  font-family: 微软雅黑;
-  font-size: 14px;
-}
-.fenye a:hover {
-  color: #5F93CF;
-  background-color: #fff;
-}
 /*************** 分页样式 ***************/
 /*验证码*/
-.search-form input[type="text"].yzm{
-  width: 130px;
+.search-form input[type="text"].yzm,
+.input-box input[type="text"].yzm{
+  width: 134px;
   float: left;
 }
-.search-form .yzm-img{
+.search-form .yzm-img,
+.input-box .yzm-img{
   float: left;
   width: 120px;
   height: 35px;
@@ -448,7 +473,8 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.search-form .yzm-link{
+.search-form .yzm-link,
+.input-box .yzm-link{
   width: 70px;
   line-height: 35px;
   padding-left: 15px;
@@ -456,4 +482,93 @@
   color: #2296f9;
   text-decoration: underline;
 }
-
+/*文件上传按钮美化*/
+.upload-btn{
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+}
+.upload-btn input{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	width: 140px;
+	height: 30px;
+}
+.upload-textname{
+	display: inline-block;
+	line-height: 40px;
+	vertical-align: top;
+	width: 220px;
+	overflow: hidden;
+}
+/*线下商户*/
+.search-box{
+	margin: 0 40px 30px;
+	font-size: 14px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 30px;
+}
+.search-box h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.search-box .search-input{
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.search-input li{
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+.search-input li label{
+	float: left;
+	width: 70px;
+	line-height: 35px;
+}
+.search-input li select{
+	float: left;
+	width: 170px;
+	height: 35px;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	background-color: #fff;
+	padding-left: 5px;
+}
+.search-input li input{
+	float: left;
+	width: 170px;
+	height: 33px;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	background-color: #fff;
+	padding: 0 0 0 5px;
+}
+.search-input li button{
+	display: block;
+	margin: 0 auto;
+}
+.search-box .tips{
+	color: #f00;
+}
+/*线上商户*/
+.logo-box{
+	overflow: hidden;
+	margin: 0 40px 50px;
+}
+.logo-box li{
+	float: left;
+	width: 20%;
+}
+.logo-box li img{
+	display: block;
+	width: 90%;
+}
